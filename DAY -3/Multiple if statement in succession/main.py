@@ -14,7 +14,7 @@ if height>=120:
         bill = 12
         print("Adult Ticket is $12")
     photo = input("Do Yo want to take photo when you ride the roller coasrter... ? Y/N")
-    if photo=="y":
+    if photo=="Y":
         bill += 3
         
     print(f"Your Total bill will be {bill}")
