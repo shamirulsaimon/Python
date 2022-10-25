@@ -15,6 +15,7 @@ for student in student_heights:
 
 print(f"Number Of Students Heights are {number_of_student}")
 
-average = "{:.2f}".format(total_height/number_of_student)
+# average = "{:.2f}".format(total_height/number_of_student)
+average = round((total_height/number_of_student))
 
 print(f"The Average Height Of The Students are {average}")
