@@ -24,6 +24,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 # print(password)
 
 #Hard Level
+
 password_list = []
 
 for char in range(1, nr_letters + 1):
@@ -36,7 +37,9 @@ for char in range(1, nr_numbers + 1):
   password_list += random.choice(numbers)
 
 print(password_list)
-random.shuffle(password_list)
+
+random.shuffle(password_list) # reorganize the order list in a list in python
+
 print(password_list)
 
 password = ""
