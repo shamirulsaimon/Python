@@ -1,7 +1,13 @@
-def greet():
-     print("Hello World!")
-     print("This is my first function")
-     print("name is saimon")
+# def greet():
+#      print("Hello ")
+#      print("How are you ?")
+#      print("Isn't the Weather nice Today ?")
+        
+# greet()
+
+def greet_with_name(name):
+    print(f"Hello {name} ")
+    print(f"How are you ? {name} ")
+    print(f"Isn't the Weather nice Today ? {name} ")
     
-    
-greet()
+greet_with_name("Saimon")
