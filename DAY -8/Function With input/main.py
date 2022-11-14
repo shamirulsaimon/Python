@@ -18,4 +18,6 @@ def greet_with_name(name,location):
     print(f"How are you ? {name} ")
     print(f"Isn't the Weather nice Today ? {name} ")
     print(f"How is it like to be in  {location} ?")
+    
 greet_with_name(name = "Shamirul" , location = "London")
+greet_with_name( location = "London" , name = "Shamirul" ,)
